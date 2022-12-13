@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gruping Tags</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: gray;
+        text-align: center;
+        font-weight: bold;
+      }
+      header {
+        background-color: white;
+        padding: 15px;
+        margin: 15px;
+        box-shadow: 3px 2px 25px rgba(0, 0, 0, 0.438);
+      }
+      header > h1 {
+        background-color: rgb(177, 177, 177);
+      }
+      nav > a {
+        background-color: rgb(177, 177, 177);
+        padding: 10px;
+        text-decoration: none;
+        margin-right: 50px;
+      }
+      nav > a:hover {
+        text-decoration: underline;
+        background-color: greenyellow;
+      }
+      main {
+        background-color: white;
+        text-align: justify;
+        font-weight: normal;
+        border-radius: 10px;
+        height: 300px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.504);
+      }
+      section > h2 {
+        text-align: center;
+        padding-top: 10px;
+      }
+
+      article {
+        background-color: rgb(83, 83, 83);
+        padding: 5px;
+        margin: 10px;
+        margin-bottom: 20px;
+        border-radius: 10px 50px;
+      }
+      article > h2 {
+        color: rgb(16, 165, 18);
+      }
+      article > p {
+        color: rgb(37, 171, 39);
+        font-style: italic;
+      }
+      article > aside {
+        color: rgb(46, 234, 49);
+        text-align: right;
+      }
+      footer {
+        color: rgb(0, 0, 0);
+        background-color: rgb(195, 193, 193);
+        padding: 1px;
+        border-radius: 10px;
+        margin-top: 15px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.504);
+      }
+      footer > p {
+        margin: 4px;
+      }
+      #bola {
+        margin: auto;
+        margin-top: 20px;
+        height: 200px;
+        width: 200px;
+        background-color: white;
+        border-radius: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Meu site</h1>
+      <nav>
+        <a href="">Link</a>
+        <a href="">Link</a>
+        <a href="">Link</a>
+        <a href="">Link</a>
+        <a href="">Link</a>
+      </nav>
+    </header>
+    <main>
+      <section id="assuntos">
+        <h2>Política no Brasil</h2>
+      </section>
+
+      <section id="noticias">
+        <article>
+          <h2>Notícias sobre o Brasil</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni modi
+            accusamus praesentium necessitatibus animi, unde quod alias? Qui
+            unde maxime omnis blanditiis doloribus quia. Voluptatem eligendi et
+            officia quaerat ex?Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Vero voluptate modi, fugiat id hic dicta tenetur
+            aliquid, ducimus magnam provident debitis enim vel praesentium
+            laboriosam. Velit tempore non eos quaerat?
+          </p>
+          <aside>
+            <p>Artigo escrito por mim</p>
+          </aside>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>Desenvolvido por mim mesmo</p>
+    </footer>
+
+    <div id="bola"></div>
+  </body>
+</html>

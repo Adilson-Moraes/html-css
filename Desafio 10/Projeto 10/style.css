@@ -1,0 +1,87 @@
+body {
+  background-color: #84e1ad;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 400px;
+  max-width: 800px;
+}
+header {
+  background-image: linear-gradient(to top, #1a5c38, #2b975a, #35bb71);
+  color: white;
+  padding: 10px;
+  margin: -8px;
+  margin-bottom: 0px;
+  height: 170px;
+}
+h1 {
+  text-align: center;
+}
+#parag1 {
+  text-align: center;
+}
+nav > a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 50px;
+}
+nav > a:hover {
+  background-color: #35bb71;
+  text-decoration: underline;
+}
+section {
+  margin: auto;
+  width: 800px;
+  background-color: white;
+  padding: 20px;
+}
+.links {
+  text-decoration: none;
+}
+#picture {
+  display: block;
+  margin: auto;
+}
+p {
+  text-align: justify;
+  text-indent: 20px;
+  padding: 15px;
+}
+section#video {
+  background-color: #35bb71;
+  padding: 0px;
+}
+section > iframe {
+  display: block;
+  margin: auto;
+}
+#parag2 {
+  background-color: #2b975a;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-indent: 0px;
+  border-radius: 10px 10px 0px 0px;
+}
+#final {
+  background-color: #84e1ad;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 10px;
+}
+
+nav > ul {
+  display: inline-block;
+  margin: 0px 0px 0px 15px;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  background-color: #1a5c38;
+  color: white;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  height: 22px;
+  padding-top: 5px;
+}

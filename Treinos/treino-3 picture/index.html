@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu treino de picture</title>
+  </head>
+  <body>
+    <h1>Treino de Picture</h1>
+    <p>Aqui vou testar meu aprendizado com a tag picture</p>
+    <picture>
+      <source
+        media="(max-width:750px)"
+        srcset="imagens/img-p.jpg"
+        type="image/jpeg"
+      />
+      <source
+        media="(max-width:1050px )"
+        srcset="imagens/img-m.jpg"
+        type="image/jpeg"
+      />
+      <img src="imagens/img-g.jpg" alt="Imagem pessoal flexível" />
+    </picture>
+  </body>
+</html>

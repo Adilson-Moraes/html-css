@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo-elementos</title>
+    <style>
+      body {
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 40px;
+        padding-top: 40px;
+        font-weight: bold;
+      }
+
+      .links {
+        text-decoration: none;
+        color: rgb(15, 198, 116);
+      }
+      .links:hover {
+        color: rgb(0, 0, 0);
+        text-decoration: underline;
+      }
+
+      .links::after {
+        content: " [link]";
+        font-weight: normal;
+        font-size: 15px;
+        color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Personalizando links</h1>
+
+    <li>
+      <a href="www.sdssds.com.br" target="_blank" class="links">GitHub</a>
+    </li>
+    <li><a href="www,youtube.com" target="_blank" class="links">Youtube</a></li>
+    <li>
+      <a href="www.dsdssds.com.br" target="_blank" class="links"
+        >Site Oficial</a
+      >
+    </li>
+  </body>
+</html>

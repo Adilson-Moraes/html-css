@@ -1,0 +1,37 @@
+body {
+  background-color: #bfc5e1;
+  font: normal 15px Arial normal sans-seriff;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 2px 2px 2px rgb(153, 153, 230);
+}
+
+/* uso do id para alterar estilo de um elemento isolado*/
+#identificador {
+  color: #7987db;
+  font-weight: bolder;
+  background-color: #d9e2f4;
+}
+
+h2 {
+  padding-top: 10px;
+  font-weight: bold;
+  color: #2a3d63;
+}
+
+/*uso do class para alterar estilo de vários elementos em conjunto*/
+.h2basico {
+  color: #2a3d63;
+  background-color: #7987db;
+}
+
+.h2intermed {
+  text-decoration: underline;
+}
+
+p {
+  text-align: justify;
+  color: #5c67a8;
+}

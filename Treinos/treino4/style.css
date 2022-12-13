@@ -1,0 +1,29 @@
+#heart {
+  position: absolute;
+  margin: 200px;
+  width: 250px;
+  height: 150px;
+  background-color: red;
+  transform: rotate(45deg);
+  border-radius: 100px 0px 0px 100px;
+}
+
+#heart2 {
+  position: relative;
+  margin: 50px;
+  width: 250px;
+  height: 150px;
+  background-color: red;
+  transform: rotate(-225deg);
+  border-radius: 100px 0px 0px 100px;
+  top: 202px;
+  left: 223px;
+}
+#sun {
+  margin-top: -240px;
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+#heart: ;
