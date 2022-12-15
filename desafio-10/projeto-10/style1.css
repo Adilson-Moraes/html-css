@@ -86,7 +86,7 @@ nav > a:hover {
 
 main {
   background-color: white;
-  min-width: 400px;
+  min-width: 420px;
   max-width: 600px;
   margin: auto;
   padding: 20px;
@@ -137,13 +137,12 @@ main img {
 }
 div.video {
   background-color: #1a5c37;
-  margin: 0px -20px 30px -20px;
+  margin: 0px -7px 30px -7px;
   padding: 20px;
-  padding-bottom: 55%;
   position: relative;
 }
 div > iframe {
-  position: absolute;
+  position: relative;
   top: 5%;
   left: 5%;
   width: 90%;
