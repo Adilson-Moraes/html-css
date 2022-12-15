@@ -38,7 +38,7 @@ header {
   min-height: 150px;
   text-align: center;
   padding-top: 40px;
-  min-width: 460px;
+  min-width: 440px;
 }
 
 header h1 {
@@ -86,7 +86,7 @@ nav > a:hover {
 
 main {
   background-color: white;
-  min-width: 420px;
+  min-width: 440px;
   max-width: 600px;
   margin: auto;
   padding: 20px;
