@@ -38,6 +38,7 @@ header {
   min-height: 150px;
   text-align: center;
   padding-top: 40px;
+  min-width: 460px;
 }
 
 header h1 {
@@ -46,6 +47,7 @@ header h1 {
   font-size: 3em;
   margin-bottom: 20px;
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.286);
+  margin-bottom: 20px;
 }
 
 header > p {
@@ -62,9 +64,10 @@ header > p {
 
 nav {
   background-color: var(--cor5);
-  margin-right: 0px;
   padding: 10px;
+  padding-top: 35px;
   box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.471);
+  min-width: 440px;
 }
 nav > a {
   color: white;
@@ -170,4 +173,5 @@ footer {
   text-align: center;
   font-size: 0.8em;
   padding: 5px;
+  min-width: 450px;
 }
