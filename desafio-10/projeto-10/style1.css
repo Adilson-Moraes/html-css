@@ -72,6 +72,7 @@ nav > a {
   text-decoration: none;
   font-weight: bold;
   transition-duration: 0.1s;
+  margin: 0px;
 }
 nav > a:hover {
   background-color: var(--cor3);
@@ -135,7 +136,7 @@ div.video {
   background-color: #1a5c37;
   margin: 0px -20px 30px -20px;
   padding: 20px;
-  padding-bottom: 75%;
+  padding-bottom: 55%;
   position: relative;
 }
 div > iframe {
