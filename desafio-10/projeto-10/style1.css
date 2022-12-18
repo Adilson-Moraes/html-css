@@ -137,15 +137,19 @@ main img {
 }
 div.video {
   background-color: #1a5c37;
-  margin: 0px -7px 30px -7px;
-  padding: 20px;
+  margin: 0px -7px 30px 0px;
+  padding: 10px;
+  max-width: 580px;
+  height: 330px;
+  border-radius: 10px;
   position: relative;
 }
 div > iframe {
-  position: relative;
-  top: 5%;
-  left: 5%;
-  width: 90%;
+  max-width: 420px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 aside {
   background-color: var(--cor1);

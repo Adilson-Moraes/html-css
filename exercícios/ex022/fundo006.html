@@ -5,6 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      section#container {
+        margin: auto;
+        height: 95vh;
+        background-color: blueviolet;
+        padding: 10px;
+        position: relative;
+      }
+
+      article#conteudo {
+        height: 500px;
+        width: 500px;
+        background-color: blue;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <section id="container">
+      <article id="conteudo"></article>
+    </section>
+  </body>
 </html>
