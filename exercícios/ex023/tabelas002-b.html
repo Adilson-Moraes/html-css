@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uso de tabelas grandes</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      table {
+        width: 450px;
+        border-collapse: collapse;
+        margin: auto;
+        position: relative;
+      }
+      table > caption {
+        background-color: rgba(128, 128, 128, 0.473);
+        font-size: 1.5em;
+        padding: 15px;
+      }
+      #estado {
+        width: 150px;
+      }
+      #populacao {
+        width: 50px;
+      }
+      th {
+        border: 1px solid black;
+        background-color: rgb(79, 78, 78);
+        color: white;
+        padding: 10px;
+      }
+      td {
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+      }
+      thead > tr > th {
+        position: sticky;
+        top: -1px;
+        background-color: rgb(79, 78, 78);
+      }
+      tbody > tr:nth-child(2n) {
+        background-color: rgb(209, 207, 207);
+      }
+      .estado {
+        text-align: left;
+      }
+      .num {
+        text-align: right;
+      }
+      tfoot {
+        background-color: rgb(79, 78, 78);
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>
+        <strong>População das unidades federativas</strong>
+      </caption>
+      <thead>
+        <tr>
+          <th scope="col" id="estado">Estado</th>
+          <th scope="col">População</th>
+          <th scope="col" id="populacao">% da população total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="estado">São Paulo</td>
+          <td class="num">45.919,049</td>
+          <td class="porcent">21,9%</td>
+        </tr>
+        <tr>
+          <td class="estado">Minas Gerais</td>
+          <td class="num">21.168,791</td>
+          <td class="porcent">10,1%</td>
+        </tr>
+        <tr>
+          <td class="estado">Rio de Janeiro</td>
+          <td class="num">17.264,943</td>
+          <td class="porcent">8,2%</td>
+        </tr>
+        <tr>
+          <td class="estado">Bahia</td>
+          <td class="num">14.873,064</td>
+          <td class="porcent">7,1%</td>
+        </tr>
+        <tr>
+          <td class="estado">Paraná</td>
+          <td class="num">11.433,957</td>
+          <td class="porcent">5,4%</td>
+        </tr>
+        <tr>
+          <td class="estado">Rio Grande do Sul</td>
+          <td class="num">11.377,239</td>
+          <td class="porcent">5,4%</td>
+        </tr>
+        <tr>
+          <td class="estado">Pernambuco</td>
+          <td class="num">9.557,071</td>
+          <td class="porcent">4,5%</td>
+        </tr>
+        <tr>
+          <td class="estado">Ceará</td>
+          <td class="num">9.132,078</td>
+          <td class="porcent">4,3%</td>
+        </tr>
+        <tr>
+          <td class="estado">Pará</td>
+          <td class="num">8.602,865</td>
+          <td class="porcent">4,1%</td>
+        </tr>
+        <tr>
+          <td class="estado">Santa Catarina</td>
+          <td class="num">7.164,788</td>
+          <td class="porcent">3,4%</td>
+        </tr>
+        <tr>
+          <td class="estado">Maranhão</td>
+          <td class="num">7.075,181</td>
+          <td class="porcent">3,4%</td>
+        </tr>
+        <tr>
+          <td class="estado">Goiás</td>
+          <td class="num">7.018,354</td>
+          <td class="porcent">3,3%</td>
+        </tr>
+        <tr>
+          <td class="estado">São Paulo</td>
+          <td class="num">45.919,049</td>
+          <td class="porcent">21,9%</td>
+        </tr>
+        <tr>
+          <td class="estado">Minas Gerais</td>
+          <td class="num">21.168,791</td>
+          <td class="porcent">10,1%</td>
+        </tr>
+        <tr>
+          <td class="estado">Rio de Janeiro</td>
+          <td class="num">17.264,943</td>
+          <td class="porcent">8,2%</td>
+        </tr>
+        <tr>
+          <td class="estado">Bahia</td>
+          <td class="num">14.873,064</td>
+          <td class="porcent">7,1%</td>
+        </tr>
+        <tr>
+          <td class="estado">Paraná</td>
+          <td class="num">11.433,957</td>
+          <td class="porcent">5,4%</td>
+        </tr>
+        <tr>
+          <td class="estado">Rio Grande do Sul</td>
+          <td class="num">11.377,239</td>
+          <td class="porcent">5,4%</td>
+        </tr>
+        <tr>
+          <td class="estado">Pernambuco</td>
+          <td class="num">9.557,071</td>
+          <td class="porcent">4,5%</td>
+        </tr>
+        <tr>
+          <td class="estado">Ceará</td>
+          <td class="num">9.132,078</td>
+          <td class="porcent">4,3%</td>
+        </tr>
+        <tr>
+          <td class="estado">Pará</td>
+          <td class="num">8.602,865</td>
+          <td class="porcent">4,1%</td>
+        </tr>
+        <tr>
+          <td class="estado">Santa Catarina</td>
+          <td class="num">7.164,788</td>
+          <td class="porcent">3,4%</td>
+        </tr>
+        <tr>
+          <td class="estado">Maranhão</td>
+          <td class="num">7.075,181</td>
+          <td class="porcent">3,4%</td>
+        </tr>
+        <tr>
+          <td class="estado">Goiás</td>
+          <td class="num">7.018,354</td>
+          <td class="porcent">3,3%</td>
+        </tr>
+        <tr>
+          <td class="estado">São Paulo</td>
+          <td class="num">45.919,049</td>
+          <td class="porcent">21,9%</td>
+        </tr>
+        <tr>
+          <td class="estado">Minas Gerais</td>
+          <td class="num">21.168,791</td>
+          <td class="porcent">10,1%</td>
+        </tr>
+        <tr>
+          <td class="estado">Rio de Janeiro</td>
+          <td class="num">17.264,943</td>
+          <td class="porcent">8,2%</td>
+        </tr>
+        <tr>
+          <td class="estado">Bahia</td>
+          <td class="num">14.873,064</td>
+          <td class="porcent">7,1%</td>
+        </tr>
+        <tr>
+          <td class="estado">Paraná</td>
+          <td class="num">11.433,957</td>
+          <td class="porcent">5,4%</td>
+        </tr>
+        <tr>
+          <td class="estado">Rio Grande do Sul</td>
+          <td class="num">11.377,239</td>
+          <td class="porcent">5,4%</td>
+        </tr>
+        <tr>
+          <td class="estado">Pernambuco</td>
+          <td class="num">9.557,071</td>
+          <td class="porcent">4,5%</td>
+        </tr>
+        <tr>
+          <td class="estado">Ceará</td>
+          <td class="num">9.132,078</td>
+          <td class="porcent">4,3%</td>
+        </tr>
+        <tr>
+          <td class="estado">Pará</td>
+          <td class="num">8.602,865</td>
+          <td class="porcent">4,1%</td>
+        </tr>
+        <tr>
+          <td class="estado">Santa Catarina</td>
+          <td class="num">7.164,788</td>
+          <td class="porcent">3,4%</td>
+        </tr>
+        <tr>
+          <td class="estado">Maranhão</td>
+          <td class="num">7.075,181</td>
+          <td class="porcent">3,4%</td>
+        </tr>
+        <tr>
+          <td class="estado">Goiás</td>
+          <td class="num">7.018,354</td>
+          <td class="porcent">3,3%</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th scope="row">Total de Habitantes</th>
+          <td class="num">170.587,400</td>
+          <td>81,1%</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
