@@ -13,6 +13,14 @@
         width: 500px;
         border-collapse: collapse;
       }
+      col.cnome,
+      col.cprofissao {
+        background-color: rgb(173, 173, 199);
+      }
+      col.csexo,
+      col.cidade {
+        background-color: rgb(172, 216, 105);
+      }
       caption {
         font-size: 1.3em;
         font-weight: bolder;
@@ -27,6 +35,13 @@
   </head>
   <body>
     <table>
+      <colgroup>
+        <col class="cnome" />
+        <col class="csexo" />
+        <col class="cidade" />
+        <col class="cprofissao" />
+      </colgroup>
+
       <caption>
         Cadastro
       </caption>
