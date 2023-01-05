@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form 007</title>
+  </head>
+  <body>
+    <form action="cadastro.php" method="get">
+      <p>
+        <label for="iest">Estado:</label>
+        <select name="estado" id="iest">
+          <optgroup label="Região Sudeste">
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="MG">Minas Gerais</option>
+          </optgroup>
+          <optgroup label="Região Sul">
+            <option value="PR">Paraná</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="RS">Rio Grande do Sul</option>
+          </optgroup>
+        </select>
+      </p>
+      <p>
+        <label for="iprof">Diga sua profissão:</label>
+        <input type="text" name="iprof" id="iprof" list="lista" />
+        <datalist id="lista">
+          <option>Administrador</option>
+          <option>Policial</option>
+          <option>Desenvolvedor</option>
+          <option>Empresário</option>
+          <option>Nômade</option>
+        </datalist>
+      </p>
+
+      <p>
+        <label for="itext">Digite um texto</label> <br />
+        <textarea name="text" id="itext" cols="30" rows="10"></textarea>
+      </p>
+
+      <p>
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Limpar" />
+      </p>
+    </form>
+  </body>
+</html>
