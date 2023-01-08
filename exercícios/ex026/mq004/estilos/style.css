@@ -22,7 +22,7 @@ body {
 
 main {
   background-color: rgba(255, 255, 255, 0.652);
-  width: 90vw;
+  width: 450px;
   margin: auto;
   border-radius: 10px;
   padding: 10px;
@@ -32,9 +32,20 @@ h1 {
   text-align: center;
   color: white;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.544);
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
+h2 {
+  text-align: center;
+}
+
+h2::before {
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.544);
+  font-size: 0.8em;
+  content: "Versão Smartphone";
+  padding: 18px;
+}
 img {
   display: block;
   margin: auto;
