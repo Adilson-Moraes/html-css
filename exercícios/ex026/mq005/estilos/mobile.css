@@ -63,6 +63,7 @@ main {
   width: 90vw;
   margin: auto;
   margin-top: 10px;
+  margin-bottom: 20px;
   padding: 10px;
   border-radius: 10px;
 }
